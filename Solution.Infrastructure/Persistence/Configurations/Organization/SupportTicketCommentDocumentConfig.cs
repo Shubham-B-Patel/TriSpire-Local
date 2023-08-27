@@ -17,6 +17,7 @@ namespace Solution.Infrastructure.Persistence.Configurations.Organization
             builder.Property(p => p.SupportTicketCommentDocumentId).HasColumnName("SupportTicketCommentDocumentId");
             builder.Property(p => p.SupportTicketId).HasColumnName("SupportTicketId");
             builder.Property(p => p.SupportTicketCommentsId).HasColumnName("SupportTicketCommentsId");
+            builder.Property(p => p.DocumentName).HasColumnName("DocumentName");
             builder.Property(p => p.TicketCommentDocumentUrl).HasColumnName("TicketCommentDocumentUrl");
            
         }
